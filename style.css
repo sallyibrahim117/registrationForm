@@ -1,0 +1,52 @@
+body{
+    font-family: "Open+Sans";
+}
+.row{
+    display: flex;
+align-items: center;
+    justify-content: center;
+    padding-block: 40px;
+}
+h6{
+    font-weight: 300;
+}
+label{
+    font-size: 13px;
+    color: black;
+    font-weight: 600;
+}
+span{
+    font-size: 13px; 
+}
+input:focus{
+    outline: none;
+}
+input{
+    padding-block: 7px;
+    border-radius: 3px;
+    margin-top: 7px;
+    padding-left: 8px;
+    border:1px solid lightgrey;
+    
+}
+button {
+    margin-top: 20px;
+    width: 50%;
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+}
+.image img{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.first ,.second{
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
