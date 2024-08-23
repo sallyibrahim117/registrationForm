@@ -33,7 +33,9 @@
     } 
 }
 @media (max-width: 468px) {
-
+.sm-form{
+    display: block !important;
+}
    
 }
 
